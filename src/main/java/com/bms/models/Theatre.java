@@ -24,9 +24,9 @@ public class Theatre {
         return name;
     }
 
-    public Screen getScreen(Movie movie, Show show) {
+    public Screen getScreen(Show show) {
         for (Screen screen : screens) {
-            if(screen.contains(movie, show)) return screen;
+            if(screen.contains(show)) return screen;
         }
         return null;
     }

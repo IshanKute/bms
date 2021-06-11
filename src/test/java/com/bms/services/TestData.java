@@ -16,7 +16,7 @@ public class TestData {
 
     public static final Show show = new Show(1, "9 AM", 100.0);
 
-    private static final Screen screen = new Screen("1", Arrays.asList(
+    public static final Screen screen = new Screen("1", Arrays.asList(
             show,
             new Show(2, "12 PM", 100.0),
             new Show(1, "3 PM", 120.0),

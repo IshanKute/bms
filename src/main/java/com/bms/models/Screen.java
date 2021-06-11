@@ -24,9 +24,9 @@ public class Screen {
         return name;
     }
 
-    public boolean contains(Movie movie, Show selectedShow) {
+    public boolean contains(Show selectedShow) {
         for (Show show : shows) {
-            if(show.getMovieId() == movie.getId() && show.getTime().equals(selectedShow.getTime())) return true;
+            if(show.getMovieId() == selectedShow.getMovieId() && show.getTime().equals(selectedShow.getTime())) return true;
         }
         return false;
     }

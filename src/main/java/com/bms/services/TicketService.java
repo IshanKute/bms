@@ -17,7 +17,7 @@ public class TicketService {
         Map<Theatre, List<Show>> availableShows = schedule.getShowsFor(movie.getId());
         Theatre theatre = selectService.selectTheatre(availableShows);
         Show show = selectService.selectShow(availableShows.get(theatre));
-        Screen screen = theatre.getScreen(movie, show);
+        Screen screen = theatre.getScreen(show);
         return new Ticket(movie, theatre, screen, show);
     }
 }

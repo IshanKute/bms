@@ -32,7 +32,7 @@ class TicketServiceTest {
         when(schedule.getShowsFor(movieId)).thenReturn(mockAvailableShows);
         when(selectService.selectTheatre(mockAvailableShows)).thenReturn(theatre);
         when(selectService.selectShow(shows)).thenReturn(show);
-        when(theatre.getScreen(movie, show)).thenReturn(screen);
+        when(theatre.getScreen(show)).thenReturn(screen);
         Ticket actualTicket = ticketService.generateTicket(movies, schedule);
         assertEquals(movie, actualTicket.getMovie());
         assertEquals(screen, actualTicket.getScreen());
