@@ -11,6 +11,10 @@ public class Schedule {
         this.theatres = theatres;
     }
 
+    public List<Theatre> getTheatres() {
+        return theatres;
+    }
+
     public Map<Theatre, List<Show>> getShowsFor(int movieId) {
         HashMap<Theatre, List<Show>> theatreMap = new HashMap<>();
         for(Theatre theatre: theatres) {
