@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bms.services.ConsoleServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-11T14:41:34" hostname="Ishans-MacBook-Pro.local" time="0.03">
+  <properties/>
+  <testcase name="should_print_show_list()" classname="com.bms.services.ConsoleServiceTest" time="0.009"/>
+  <testcase name="should_print_movie_list()" classname="com.bms.services.ConsoleServiceTest" time="0.002"/>
+  <testcase name="should_print_ticket()" classname="com.bms.services.ConsoleServiceTest" time="0.009"/>
+  <testcase name="should_print_theatre_info()" classname="com.bms.services.ConsoleServiceTest" time="0.004"/>
+  <testcase name="should_get_User_Choice()" classname="com.bms.services.ConsoleServiceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -21,8 +21,7 @@ public class Show {
 
     public double getPrice() { return price; }
 
-    @Override
-    public String toString() {
+    public String getDisplayString() {
         return time + " INR " + price;
     }
 }

@@ -16,13 +16,13 @@ public class SelectService {
     }
 
     public Movie selectMovie(List<Movie> movies) {
-        consoleService.printList(movies, "The movies currently screening:");
+        consoleService.printMovies(movies);
         int userChoice = consoleService.getUserChoice("Select movie you want to watch (e.g. 1, 2)");
         return movies.get(userChoice - 1);
     }
 
     public Show selectShow(List<Show> shows) {
-        consoleService.printList(shows, "Select your show:");
+        consoleService.printShows(shows);
         int userChoice = consoleService.getUserChoice("Select show (e.g.1, 2)");
         return shows.get(userChoice-1);
     }

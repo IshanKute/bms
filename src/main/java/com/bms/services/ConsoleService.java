@@ -1,5 +1,6 @@
 package com.bms.services;
 
+import com.bms.models.Movie;
 import com.bms.models.Ticket;
 import com.bms.utils.ConsoleUtil;
 import com.bms.models.Show;
@@ -15,10 +16,17 @@ public class ConsoleService {
         this.consoleUtil = consoleUtil;
     }
 
-    public <T> void printList(List<T> list, String message){
-        consoleUtil.println(message);
-        for (int i = 0; i < list.size(); i++) {
-            consoleUtil.println((i + 1) + ". " + list.get(i).toString());
+    public void printMovies(List<Movie> movies){
+        consoleUtil.println("The movies currently screening:");
+        for (int i = 0; i < movies.size(); i++) {
+            consoleUtil.println((i + 1) + ". " + movies.get(i).getName());
+        }
+    }
+
+    public void printShows(List<Show> shows){
+        consoleUtil.println("Select your show:");
+        for (int i = 0; i < shows.size(); i++) {
+            consoleUtil.println((i + 1) + ". " + shows.get(i).getDisplayString());
         }
     }
 
@@ -49,7 +57,7 @@ public class ConsoleService {
 
     private void printTimings(List<Show> shows) {
         for (Show show : shows) {
-            consoleUtil.println(show.getTime() + " INR " + show.getPrice());
+            consoleUtil.println(show.getDisplayString());
         }
     }
 }

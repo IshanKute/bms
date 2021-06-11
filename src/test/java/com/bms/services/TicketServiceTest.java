@@ -34,10 +34,9 @@ class TicketServiceTest {
         when(selectService.selectShow(shows)).thenReturn(show);
         when(theatre.getScreen(movie, show)).thenReturn(screen);
         Ticket actualTicket = ticketService.generateTicket(movies, schedule);
-        Ticket expectedTicket = new Ticket(movie, theatre, screen, show);
-        assertEquals(expectedTicket.getMovie(), actualTicket.getMovie());
-        assertEquals(expectedTicket.getScreen(), actualTicket.getScreen());
-        assertEquals(expectedTicket.getTheatre(), actualTicket.getTheatre());
-        assertEquals(expectedTicket.getShow(), actualTicket.getShow());
+        assertEquals(movie, actualTicket.getMovie());
+        assertEquals(screen, actualTicket.getScreen());
+        assertEquals(theatre, actualTicket.getTheatre());
+        assertEquals(show, actualTicket.getShow());
     }
 }
