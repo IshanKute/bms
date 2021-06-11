@@ -1,6 +1,6 @@
 package com.bms.models;
 
-import com.bms.services.TestData;
+import com.bms.TestData;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

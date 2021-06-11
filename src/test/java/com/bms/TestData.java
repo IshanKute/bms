@@ -1,4 +1,4 @@
-package com.bms.services;
+package com.bms;
 
 import com.bms.models.*;
 
