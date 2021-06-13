@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bms.services.TicketServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-13T04:04:56" hostname="Ishans-MacBook-Pro.local" time="0.03">
-  <properties/>
-  <testcase name="should_generate_ticket_from_the_user_selected_data()" classname="com.bms.services.TicketServiceTest" time="0.03"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

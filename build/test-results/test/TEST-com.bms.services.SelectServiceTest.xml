@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bms.services.SelectServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-13T04:04:56" hostname="Ishans-MacBook-Pro.local" time="0.009">
-  <properties/>
-  <testcase name="should_select_movie()" classname="com.bms.services.SelectServiceTest" time="0.003"/>
-  <testcase name="should_select_theatre()" classname="com.bms.services.SelectServiceTest" time="0.002"/>
-  <testcase name="should_select_show()" classname="com.bms.services.SelectServiceTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

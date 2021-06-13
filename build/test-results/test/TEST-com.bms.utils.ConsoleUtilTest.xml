@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bms.utils.ConsoleUtilTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-13T04:04:56" hostname="Ishans-MacBook-Pro.local" time="0.006">
-  <properties/>
-  <testcase name="should_get_next_int()" classname="com.bms.utils.ConsoleUtilTest" time="0.004"/>
-  <testcase name="should_print_line()" classname="com.bms.utils.ConsoleUtilTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
